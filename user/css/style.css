@@ -1,0 +1,326 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(171, 3, 3);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 40px;
+    
+    /* margin: auto; */
+}
+
+.search-box ,.container {
+    background-color: #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    text-align: center;
+    margin:2%
+}
+
+.search-box h2 {
+    margin-top: 0;
+    padding:5px;
+    background-color:rgb(171, 3, 3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+    display: inline;
+}
+
+select, input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    width: 30px;
+    /* background-color: #c72c40   ; */
+    display: inline;
+}
+
+button {
+    background-color: #F00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size:25px;
+    width:250px;
+    margin:auto;
+}
+/* .publish {
+    width:250px;
+    margin:auto;
+} */
+@media screen and (max-width: 768px) {
+    body {
+      
+        font-size: 14px;
+    }
+    
+    header h1 {
+        font-size: 18px;
+    }
+   /* button {
+    width:150px;
+   } */
+
+}
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+.header {
+    background-color: #fff;
+    color: #c72c40;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 700px;
+    margin: 10px auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+    
+}
+
+.main {
+    padding: 40px 0;
+}
+
+.post-button {
+    background-color: black;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 80%;
+    }
+    .form-group
+    {
+        max-width: 80%;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .patient{
+        max-width: 80%;
+    }
+    .post-button {
+        font-size: 16px;
+        padding: 10px 20px;
+    }
+        /* .search-box{
+            /* max-width: 0%; */
+        /* } */ 
+    .search-box{
+        width: 90%;
+    }
+}
+/* @media screen and (max-width: 500px)  {
+    .container{
+        max-width:  800px;
+    }
+     */
+/* } */
+
+
+
+
+/* 
+nav ul {
+    text-align:center;
+    list-style-type: none;
+    size: 30px;
+}
+
+nav ul li {
+    
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    float:left;
+    margin: 20px 20px;
+    color: #fff;
+    text-decoration: none;
+    /* size: 20px; */
+/* } */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.user
+{
+    font-size: 30px;
+    margin-top: 8px;
+    
+}
+.userDiv
+{
+    margin:10px auto;
+    width: 50px ;
+    height: 50px;
+    border-radius: 50%;
+    background-color:#000000;
+    color: azure;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+h2{
+    background-color: rgb(171, 3, 3);
+    border-radius: 5px;
+    margin: 8px auto;
+    color: azure;
+}
+/* .container {
+    max-width: 400px;
+    margin:120px 450px;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+   
+} */
+
+.register-form {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+    width:400px;
+    margin: auto
+}
+
+label {
+    display: inline;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"]
+ {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: inline;
+}
+
+button {
+    background-color:rgb(171, 3, 3);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(171, 3, 3);
+}
+.createAccount{
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:rgb(171, 3, 3);
+    color: white;
+}
+.createAccount a{
+    text-decoration: none;
+    color: #000000;
+}
+p{
+    margin: 10px auto;
+    font-size: 20px;
+}
+.remember{
+    color: red;
+}
+/****************************************/
+.patient{
+    border-radius: 8px;
+    padding: 10px 6px;
+    margin-top: 100px;
+    text-align: center;
+    margin: 100px auto ;
+    background-color: #cf0000;
+    width:400px
+    
+}
+.patient a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.parent{
+    background-color: #cf0000;
+    text-align: center;
+}
+.img{
+    
+    float: right;
+    margin: 20px;
+    height: auto;
+    
+}
+.paragraph{
+    margin: 20px;
+    float: right;
+    /* width: 500px;
+    height: 100px; */
+    /* background-color:    #cf0000; */
+}

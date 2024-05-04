@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feedback List</title>
+  <link rel="stylesheet" href="../admin/css/st.css">
+</head>
+<body>
+  <h1>أراء المستخدمين</h1>
+
+  <section class="feedback-container">
+    <h2>الاراء</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>الاسم</th>
+          <th>التقيم</th>
+          <th>الآراء</th>
+          <!-- <th></th> -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td> مصطفى محمد</td>
+          <td> 5\10<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></td>
+          <td>الموقع جيدا جدا ومفيد </td>
+          <!-- <td> <button>إزالة</button> </td> -->
+
+        </tr>
+        <tr>
+          <td> محمد جمال</td>
+          <td> 9\10<i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i></td>
+          <td>الموقع جيدا جدا ومفيد </td>
+          <!-- <td> <button>إزالة</button> </td> -->
+
+        </tr>
+      </tbody>
+    </table>
+  </section>
+<div>
+  <h3>ما تقييمك</h3>
+  
+  <input type="text" id="Txt">
+  <input type="number" min="1" max="10">
+  <button onclick="add()">اضافة</button> 
+  <label id="lbl"></label>
+
+  <div id="view"> </div>
+  </div>
+</body>
+<script>
+  function add()
+  {
+    //document.getElementById("view").innerText("ggghhjjj");
+    //x= document.getElementById("Txt").value();
+    //document.getElementById("view").innerText(x);
+   // const para = document.createElement("p");
+    // var txt= 
+   // const node = document.createTextNode("This is new.");
+//const node = document.createTextNode(Txt);
+//para.appendChild(node);
+   var text =document.getElementById("Txt").innerText;;
+ document.getElementById("view").innerHTML=(text);
+ console.log(text);
+
+//element.appendChild(para);
+
+  }
+</script>
+</html>
