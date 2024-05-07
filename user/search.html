@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="rtl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -49,7 +49,9 @@
             <h2>العثور على متبرع بالدم</h2>
             <form>
                 <label for="blood-type">فصيلة الدم:</label>
-                <select name="blood-type" id="blood-type">
+                
+                <select class="form-select" aria-label="Default select example">
+                    <option selected>أختار فصيلةالدم</option>
                     <option value="A+">A+</option>
                     <option value="A-">A-</option>
                     <option value="B+">B+</option>
@@ -58,10 +60,12 @@
                     <option value="AB-">AB-</option>
                     <option value="O+">O+</option>
                     <option value="O-">O-</option>
-                </select>
-                <label for="location">الموقع:</label>
-                <input type="text" name="location" id="location" placeholder="أدخل المدينة أو الدولة">
-                <button type="submit" class="form-group">بحث</button>
+                  </select>
+                <label for="location" >الموقع:</label>
+                <input type="text" name="location" id="location"class="form-control" placeholder="أدخل المدينة أو الدولة">
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary" style="background-color: rgb(171, 3, 3);"> بحث</button>
+                  </div>
             </form>
         </div>
     </main>
